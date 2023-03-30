@@ -9,7 +9,7 @@
             below:
           </p>
 
-          <p>{{ (5 * 5) }}</p>
+          <p>{{ 400 / 10 }}</p>
         </div>
         <div class="border p-1">
           <p>

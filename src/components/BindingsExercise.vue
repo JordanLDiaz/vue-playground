@@ -24,7 +24,7 @@
           <!-- add a v-model to this input that will reference "myName" within the state object-->
           <input v-model="state.myName" />
           <!-- reference "myName" from the state -->
-          <p>{{ }}</p>
+          <p>{{ state.myName }}</p>
         </div>
         <div class="border p-1">
           <h5>Class Binding</h5>
@@ -55,7 +55,7 @@ export default {
     const state = reactive({
       //create a property called myName and set its value to "type your name here"
       myName: "Jordan",
-      message: "Snow is cold!",
+      message: "I want spring!",
       //change isActive to true
       isActive: true,
     });
